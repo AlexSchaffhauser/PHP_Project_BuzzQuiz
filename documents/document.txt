@@ -1,0 +1,39 @@
+GOAL:
+
+The purpose of this quiz will be for young children to demonstrate general abilities such as recognizing the difference between insects and general bee knowledge.
+
+There will be 5 fairly simple questions to engage with.
+
+PURPOSE OF EACH QUESTION:
+
+First they will be asked their first name and age. Age only needs to go up to 10, starting at 3.
+
+Question 1: User will choose the correct picture identifying a bee among other insects. This demonstrates the child both knows what a bee is and can identify it based on it's features compared to other creatures.
+
+Question 2: User will be asked to count how many bees are on screen. The bees will be moving, requiring the user to keep track of which ones they've counted. (Intention was to animate bees in JavaScript. Unfortunately it wasn't completed, a still image is in it's place.)
+
+Question 3: User will be asked what bees do to flowers. Answers will be close such as "polliviate" instead of "pollinate", requiring users to demonstrate their ability to choose the right word in addition to knowing what a bee does.
+
+Question 4: User will be asked to identify where bees live.
+
+Question 5: User will be asked what the "mother bee" is called.
+
+TARGET AUDIENCE:
+
+The target audience is young children.
+
+STATS TRACKED:
+
+Every user (only one affiliated per email) will have their test scores kept in the database. This will allow us to identify at what age children are most knowledgeable about bees.
+
+PROJECT DESCRIPTION:
+
+Bees are incredible insects that are very important for our environment. To educate children on the matter they be asked questions, not only about bees themselves but given tasks such as counting, to engage with the subject and learn from it.
+
+IDEAS FOR IMPROVEMENT
+
+-More CSS work, responsive design, JavaScript work.
+My site is a bit shabby looking right now and not as responsive as it should be. Upgrading the look of the website goes a long way in making it feel better to browse. In addition heavy use of JavaScript would be beneficial for a children's website. My original plan for JavaScript was very simple, to use it for animation. However to get children to engage with the website it would be better to create small games to add to the quiz. A small memory game, or a game where you have to catch bees with your mouse. These activities would still provide valuable data on the abilities of young children and furthur motivate them to continue on the site and learn more.
+
+-Submit each answer individually and show description immediately after.
+I think leaving all the answers until the end is a mistake when designing with children in mind. I should have the answer and description pop up with each answer submitted to keep the child engaged. This would also update the database more frequently, ensuring we get some information even if a child doesn't complete the quiz. Right now the website is worthless if they don't finish the quiz.

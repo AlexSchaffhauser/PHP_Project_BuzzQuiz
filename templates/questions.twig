@@ -1,0 +1,70 @@
+{% extends "shell.twig" %}
+
+{% block content %}
+    <div class="container main">
+        <h1>BuzzQuiz</h1>
+        <p>Try your best to answer the questions below!</p>
+        <hr>
+        <form method="POST" action="">
+            <h2>Question 1:</h2>
+            <p>Which one of these is a bee?</p>
+            <div class="form-group">
+                <input type="radio" class="radio_item" value="1" name="question_1" id="radio1" required />
+                <label class="label_item" for="radio1"> <img src="img/spider.png"> </label>
+                <input type="radio" class="radio_item" value="2" name="question_1" id="radio2">
+                <label class="label_item" for="radio2"> <img src="img/bee2.png"> </label>
+                <input type="radio" class="radio_item" value="3" name="question_1" id="radio3">
+                <label class="label_item" for="radio3"> <img src="img/butterfly.png"> </label>
+                <input type="radio" class="radio_item" value="4" name="question_1" id="radio4">
+                <label class="label_item" for="radio4"> <img src="img/fly.png"> </label>
+            </div>
+            <hr>
+            <h2>Question 2:</h2>
+            <p>How many bees are flying around?</p>
+            <div class="form-group">
+                <img src="img/howmany.png" />
+                <input type="number" name="question_2" id-"howmany" required>
+            </div>
+            <hr>
+            <h2>Question 3:</h2>
+            <p>Bees are good for the environment because they do "what" to flowers?</p>
+            <div class="form-group">
+                <input type="radio" class="radio_item" value="1" name="question_3" id="radio5" required />
+                <label class="label_item" for="radio5">Polliviate</label>
+                <input type="radio" class="radio_item" value="2" name="question_3" id="radio6">
+                <label class="label_item" for="radio6">Politicize</label>
+                <input type="radio" class="radio_item" value="3" name="question_3" id="radio7">
+                <label class="label_item" for="radio7">Participate</label>
+                <input type="radio" class="radio_item" value="4" name="question_3" id="radio8">
+                <label class="label_item" for="radio8">Pollinate</label>
+            </div>
+            <hr>
+            <h2>Question 4:</h2>
+            <p>Which of these do bees live in?</p>
+            <div class="form-group">
+                <input type="radio" class="radio_item" value="1" name="question_4" id="radio9" required/>
+                <label class="label_item" for="radio9"> <img src="img/beehive.png"> </label>
+                <input type="radio" class="radio_item" value="2" name="question_4" id="radio10">
+                <label class="label_item" for="radio10"> <img src="img/house.png"> </label>
+                <input type="radio" class="radio_item" value="3" name="question_4" id="radio11">
+                <label class="label_item" for="radio11"> <img src="img/cave.png"> </label>
+                <input type="radio" class="radio_item" value="4" name="question_4" id="radio12">
+                <label class="label_item" for="radio12"> <img src="img/barn.png"> </label>
+            </div>
+            <hr>
+            <h2>Question 5:</h2>
+            <p>The mother bee in a Hive is called the ___?</p>
+            <div class="form-group">
+                <input type="radio" class="radio_item" value="1" name="question_5" id="radio13" required>
+                <label class="label_item" for="radio13">King Bee</label>
+                <input type="radio" class="radio_item" value="2" name="question_5" id="radio14">
+                <label class="label_item" for="radio14">Queen Bee</label>
+                <input type="radio" class="radio_item" value="3" name="question_5" id="radio15">
+                <label class="label_item" for="radio15">Mommy Bee</label>
+                <input type="radio" class="radio_item" value="4" name="question_5" id="radio16">
+                <label class="label_item" for="radio16">Uncle Bee</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Done!</button>
+        </form>
+    </div>
+{% endblock %}

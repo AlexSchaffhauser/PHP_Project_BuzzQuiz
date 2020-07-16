@@ -1,0 +1,28 @@
+{% extends "shell.twig" %}
+
+{% block content %}
+    <div class="container main">
+        <h1>Welcome to BuzzQuiz!</h1>
+        <p>BuzzQuiz is designed to test the aptitude of young children while teaching them fun facts about bees. To get started fill out the information and click the button below!</p>
+
+        <form method="POST" action="">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <select class="form-control" id="age" name="age" required>
+                {% for i in range(3, 12) %}
+                    <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Parent's E-Mail</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Start Quiz!</button>
+        </form>
+    </div>
+{% endblock %}

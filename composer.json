@@ -1,0 +1,6 @@
+{
+    "require": {
+        "sergeytsalkov/meekrodb": "^2.3",
+        "twig/twig": "^3.0"
+    }
+}

@@ -1,0 +1,61 @@
+{% extends "shell.twig" %}
+
+{% block content %}
+    <div class="container main">
+        <h1>Your results!</h1>
+        
+        <div class="container">
+            <h2>Question 1</h2>
+            {% if q1 == 2 %}
+                <h3 class="correct">Correct</h3>
+            {% else %}
+                <h3 class="incorrect">{{ q1 }} was Incorrect</h3>
+            {% endif %}
+            <img src="img/bee1.png" alt="Bee"/>
+            <p>Bees are usually black and yellow insects with big bodies and small wings. Watch out for their stinger!</p>
+        </div>
+        <div class="container">
+            <h2>Question 2</h2>
+            {% if q2 == 4 %}
+                <h3 class="correct">Correct</h3>
+            {% else %}
+                <h3 class="incorrect">{{ q2 }} was Incorrect</h3>
+            {% endif %}
+            <img src="img/beecolony.png" alt="bees"/>
+            <p>Many bees, like honey bees, like to live together as what we call a "colony".</p>
+        </div>
+        <div class="container">
+            <h2>Question 3</h2>
+            {% if q3 == 4 %}
+                <h3 class="correct">Correct</h3>
+            {% else %}
+                <h3 class="incorrect">{{ q3 }} was Incorrect</h3>
+            {% endif %}
+            <img src="img/beeflower.png" alt="Bee on flower"/>
+            <p>Bees help new flowers spread by pollinating them. Without bees we wouldn't see anymore flowers grow!</p>
+        </div>
+        <div class="container">
+            <h2>Question 4</h2>
+            {% if q4 == 1 %}
+                <h3 class="correct">Correct</h3>
+            {% else %}
+                <h3 class="incorrect">{{ q4 }} was Incorrect</h3>
+            {% endif %}
+            <img src="img/beehive2.png" alt="Beehive" />
+            <p>A colony of bees live together in what's called a "hive". In this hive they take care of their young and make delicious honey.</p>
+        </div>
+        <div class="container">
+            <h2>Question 5</h2>
+            {% if q5 == 2 %}
+                <h3 class="correct">Correct</h3>
+            {% else %}
+                <h3 class="incorrect">{{ q5 }} was Incorrect</h3>
+            {% endif %}
+            <img src="img/queen.png" alt="Queen Bee" />
+            <p>Queen bees are the mother of most if not all bees in a hive. That's a lot of kids!</p>
+        </div>
+
+        <h2><a href="index.php">Back Home</a></h2>
+        
+    </div>
+{% endblock %}
